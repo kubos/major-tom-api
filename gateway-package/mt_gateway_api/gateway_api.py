@@ -12,12 +12,12 @@ import hashlib
 
 import websockets
 
-from major_tom.command import Command
+from mt_gateway_api.command import Command
 
 logger = logging.getLogger(__name__)
 
 
-class Gateway:
+class GatewayAPI:
     def __init__(self, host, gateway_token, ssl_verify=False, basic_auth=None, https=True, ssl_ca_bundle=None, command_callback=None, error_callback=None, rate_limit_callback=None, cancel_callback=None):
         self.host = host
         self.gateway_token = gateway_token
