@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="major-tom-gateway-api",
-    version="0.0.1",
+    version="0.0.2",
     author="Jesse Coffey",
     author_email="jcoffey@kubos.com",
     description="A package for interacting with Major Tom's Gateway API.",
@@ -16,8 +16,7 @@ setuptools.setup(
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License",
-        "Operating System :: OS Independent",
-        "Development Status :: 4 - Beta"
+        "Operating System :: OS Independent"
     ],
     python_requires='>=3.7',
 )

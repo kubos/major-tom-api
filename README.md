@@ -6,7 +6,7 @@ Check the README inside it for more info on the package itself.
 
 `$ python3 test.py` checks that it's been imported into the environment properly.
 
-# Building package
+# Building Packages
 
 Run the following in each package directory:
 
