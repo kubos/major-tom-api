@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="major-tom-script-api",
-    version="0.0.2",
+    name="majortom_script",
+    version="0.0.3",
     author="Jesse Coffey",
     author_email="jcoffey@kubos.com",
     description="A package for interacting with Major Tom's Script API.",

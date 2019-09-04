@@ -12,7 +12,7 @@ import hashlib
 
 import websockets
 
-from mt_gateway_api.command import Command
+from majortom_gateway.command import Command
 
 logger = logging.getLogger(__name__)
 
