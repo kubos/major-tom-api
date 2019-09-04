@@ -4,5 +4,5 @@ Python Package for interacting with Major Tom's Gateway API.
 The Gateway API functions are accessible under the `GatewayAPI` class:
 
 ```python
-from mt_gateway_api.gateway_api import GatewayAPI
+from mt_gateway_api import GatewayAPI
 ```

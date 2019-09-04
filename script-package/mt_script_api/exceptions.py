@@ -1,4 +1,3 @@
-
 class ApiError(Exception):
     """Base error class for the API"""
 
